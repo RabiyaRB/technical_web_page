@@ -4,4 +4,20 @@
   box-sizing: border-box;
 }
 
+#navbar{
+  background-color: aqua;
+
+}
+
 /* ||||||||||||||||||||| Add CSS code under this line |||||||||||||||||||| */
+
+@media screen and (min-width:600px) {
+  
+  #navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+  
+}
